@@ -1,7 +1,7 @@
 chitter [![Build Status](https://travis-ci.org/tomasdoh/chitter.svg?branch=master)](https://travis-ci.org/tomasdoh/chitter)
 =================
 
-Sign up to start peeping on [*_chitter_*](https://chitterr.herokuapp.com/peeps), a Twitter clone built using Sinatra, Datamapper and PostgreSQL, and tested with RSpec and Capybara.
+Sign up to start peeping on [*_chitter_*](https://chitterr.herokuapp.com/), a Twitter clone built using Sinatra, Datamapper and PostgreSQL, and tested with RSpec and Capybara.
 
 ### Screenshots
 
