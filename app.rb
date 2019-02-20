@@ -8,7 +8,7 @@ require 'bcrypt'
   if ENV['RACK_ENV'] == 'test'
     DataMapper.setup(:default, 'postgres://localhost/chitter_test')
   else
-    DataMapper.setup(:default, 'postgres://localhost/chitter')
+    DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/chitter')
   end
 
 DataMapper.finalize.auto_upgrade!
